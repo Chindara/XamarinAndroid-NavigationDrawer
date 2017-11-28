@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLocalDB", "DemoLocalDB\DemoLocalDB.csproj", "{9CEE6FE2-EAF4-4E62-8F4A-4F944629A125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CEE6FE2-EAF4-4E62-8F4A-4F944629A125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CEE6FE2-EAF4-4E62-8F4A-4F944629A125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CEE6FE2-EAF4-4E62-8F4A-4F944629A125}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9CEE6FE2-EAF4-4E62-8F4A-4F944629A125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CEE6FE2-EAF4-4E62-8F4A-4F944629A125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CEE6FE2-EAF4-4E62-8F4A-4F944629A125}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

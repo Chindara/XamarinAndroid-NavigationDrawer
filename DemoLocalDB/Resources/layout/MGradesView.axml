@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:padding="10dp">
+  <TextView
+      android:text="Grade Details"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView1"
+      android:textStyle="bold"
+      android:layout_marginBottom="20dp"
+      android:layout_marginTop="10dp" />
+  <EditText
+      android:hint="Grade Name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/edt_GradeName1" />
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <Button
+        android:text="Add"
+        android:id="@+id/btn_GradeAdd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Edit"
+        android:id="@+id/btn_GradeEdit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Delete"
+        android:id="@+id/btn_GradeDelete1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+  </LinearLayout>
+</LinearLayout>
